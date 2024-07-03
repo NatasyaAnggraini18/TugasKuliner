@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <style>
+        html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color:#FFA07A;
+    background-repeat: no-repeat;
+    background-size: auto;
+    display: block;
+}
+.logo{
+    float: left;
+    margin-left: 30px;
+    padding: 0px 38px;
+    font-family: comic sans ms;
+    font-size: 40px;
+    font-weight: bold;
+}
+.logo a{
+    text-decoration: none;
+    color: #141413;
+}
+.nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    height: 80px;
+    width: 100%;
+
+}
+.nav ul{
+    list-style: none;
+    cursor: pointer;
+    float: right;
+    margin-right: 140px;
+}
+.nav ul li{
+    list-style: none;
+    display: inline-block;
+    color: #181817;
+    font-family: 'Times New Roman', Times, serif;
+    font : bold;
+    padding: 15px 15px;
+    font-weight: 400;
+}
+.nav ul li:hover{
+    border-bottom: 3px solid #000000;
+    transition: all .3s ease;
+}
+
+.header{
+    text-align: center;
+    position: absolute;
+    top: 29%;
+    left: 72%;
+    transform: translate(-50%, -50%);
+}
+.header h1{
+    color: #fff;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+
+}
+.header span{
+    color: #000000;
+}
+.content-header{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    top: 55%;
+    left: 74%;
+}
+.content-header p{
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    text-align: left;
+    color: #000000;
+
+}
+text {
+    width: 205px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+
+.search-input{
+    width: 205px;
+    height: 40px;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+    float: left;
+    padding-left: 15px;
+    box-shadow: 19px 21px 53px rgba(46, 46, 46, 0.66);
+}
+input [type="text"]:focus{
+    outline: none;
+}
+.search-btn{
+    width: 100px;
+    height:  42px;
+    border-radius: 0px 10px 10px 0px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    background-color: #014280;
+    margin-left: -46px;
+    margin-top: 0.2px;
+    box-shadow: 0px 21px 53px rgba(46, 46, 46, 0.66);
+}
+.search-btn:hover{
+    transition: all .5s ease;
+    background-color: #A52A2A;
+    box-shadow: 0px 21px 53px rgba(46, 46, 46, 0.66);
+}
+.col-img{
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    text-align: -webkit-right;
+
+}
+.col-img img{
+width: 50%;
+}
+</style>
+    <div class="wrapper">
+        <div class="nav">
+            <div class="logo">
+                <a href="#">
+                    <p>Kuliner Binjai</p>
+                </a>
+             </div>
+             <ul>
+                <li>Home</li>
+                <li>Food</li>
+                <li>Drink</li>
+                <li>About</li>
+                <li>Contact Us</li>
+             </ul>
+        </div>
+        <div class="header">
+            <h1>Kuliner <span>Binjai</span></h1>
+        </div>
+        <div class="content-header">
+            <p>
+                Bubur ayam adalah salah satu jenis makanan dari Indonesia terutama kota Binjai. Bubur ayam kerap menjadi pilihan makanan untuk sarapan, 
+                tetapi bubur ayam sebenarnya dapat dimakan kapan saja. Selain sarapan, bubur ayam kerap menjadi pilihan hidangan hangat di tengah malam. 
+                Karena teksturnya yang lembut serta memiliki kandungan gizi yang cukup baik,bubur ayam kerap dijadikan makanan bayi, anak-anak, atau orang sakit yang tengah dirawat untuk pemulihan.
+            </p>
+            <br>
+            <input type="text" class="search-input" placeholder="cari makanan kuliner binjai....">
+            <input class="search-btn"
+            type="button" value="cari">
+        </div>
+        <div class="col-img">
+            <img src="bubur.png" alt="">
+        </div>
+    </div>
+</body>
+</html>
